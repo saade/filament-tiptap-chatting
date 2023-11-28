@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Saade\FilamentTiptapChatting\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentTiptapChattingCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-tiptap-chatting';
 
     public $description = 'My command';
 
