@@ -10,11 +10,11 @@ use Filament\Support\Facades\FilamentAsset;
 use Filament\Support\Facades\FilamentIcon;
 use Illuminate\Filesystem\Filesystem;
 use Livewire\Features\SupportTesting\Testable;
+use Saade\FilamentTiptapChatting\Commands\FilamentTiptapChattingCommand;
+use Saade\FilamentTiptapChatting\Testing\TestsFilamentTiptapChatting;
 use Spatie\LaravelPackageTools\Commands\InstallCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Saade\FilamentTiptapChatting\Commands\FilamentTiptapChattingCommand;
-use Saade\FilamentTiptapChatting\Testing\TestsFilamentTiptapChatting;
 
 class FilamentTiptapChattingServiceProvider extends PackageServiceProvider
 {
